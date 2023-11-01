@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create-color</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/scriptCreateColor.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="main__field">
+                <label class="field__label" for="width">Ширина:</label>
+                <input type="number" id="width" class="field__input" placeholder="100">
+            </div>
+            <div class="main__field">
+                <label class="field__label" for="height">Высота:</label>
+                <input type="number" id="height" class="field__input" placeholder="100">
+            </div>
+            <button id="btn" class="main__button" onclick="changeBlockSize(); generateRandomColor()">Случайный цвет</button>
+            <hr class="main__line">
+            <div class="main__change-block" id="change-block"></div>
+        </div>
+    </div>
+</body>
+</html>

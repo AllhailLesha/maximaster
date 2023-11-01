@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="/icons/apple-touch-icon.png">
+    <title>Guest Book</title>
+</head>
+<body>
+    <div class="main">
+        <div id="mainPosts" class="main__posts">
+        </div>
+        <hr class="main__line">
+        <div class="main__form">
+            <form id="form" class="form__body">
+                <input type="text" id="inputName" name="guestName" class="form__input" placeholder="Имя">
+                <textarea type="text" name="message" id="message" class="form__textarea" placeholder="Ваше сообщение"></textarea>
+                <div id="formBlock" class="form__block"></div>
+                <button type="submit" class="form__button">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

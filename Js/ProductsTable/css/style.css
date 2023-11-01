@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    height: 100vh;
+}
+
+.form {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__input{
+    width: 100px;
+    margin-right: 10px;
+}
+
+.form__label {
+    margin-right: 10px;
+}
+
+.table {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+thead {
+    background-color: lightgray;
+}
+
+th, td {
+    padding: 0.4em 0.6em;
+}
+
+tr {
+    border: 1px solid;
+}
+
+#error {
+    color: crimson;
+    text-align: center;
+}

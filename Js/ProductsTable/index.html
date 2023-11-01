@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products table</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <form class="form" id="form">
+                <label class="form__label" for="from">Цена от: </label>
+                <input class="form__input" type="number" id="from" placeholder="0">
+                <label class="form__label" for="to">до: </label>
+                <input class="form__input" type="number" id="to" placeholder="10000">
+                <button class="form__button" type="submit" id="btn">Обновить</button>
+            </form>
+            <div class="table">
+                <table class="product">
+                    <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Название</th>
+                        <th>Количество</th>
+                        <th>Цена за единицу</th>
+                        <th>Сумма</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div id="error"></div>
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+</html>
